@@ -1,4 +1,7 @@
 * {
+    font-family: 'Questrial', sans-serif;
+}
+* {
     padding: 0;
     margin: 0;
 }
@@ -39,6 +42,11 @@ html, body {
     display: inherit;
 }
 
+.rightbutton {
+    float: right;
+    width: 20px;
+}
+
 .sliderbox {
     width: 10%;
 }
@@ -48,7 +56,7 @@ html, body {
 }
 
 .ruleboxright {
-    width: 25%;
+    width: 45%;
 }
 
 input {
