@@ -17,7 +17,7 @@
 	<div id="page">
 		<div id="left" class="box">
 			<ul class="nav nav-tabs">
-				<li class="active"><a data-toggle="tab" href="#params">Parameters</a></li>
+				<li class="active"><a data-toggle="tab" href="#params">Drawing Parameters</a></li>
 				<li><a data-toggle="tab" href="#rules">Rules</a></li>
 				<li><a data-toggle="tab" href="#interp">Interpretation</a></li>
 				<li><a data-toggle="tab" href="#colors">Colors</a></li>
@@ -32,7 +32,6 @@
 						<li><a href="#" id="preset2">Sirpinski Triangle</a></li>
 						<li><a href="#" id="preset5">Sirpinski Triangle (alt)</a></li>
 						<li><a href="#" id="preset6">Leaf (3D)</a></li>
-						<li><a href="#" id="preset7">Bush (3D)</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -56,22 +55,9 @@
 							<input class="sliderbox" width=10px id="input-Step" name="value" value="0.03">
 						</div>
 						<div class="form-group form-inline">
-							<h5>Line thickness:</h5>
-							<input id="slide-Thickness" class="slider form-control" type="range" min="1" max="10" step="0.25" value="1">
-							<input class="sliderbox" width=10px id="input-Thickness" name="value" value="1">
-						</div>
-						<div class="form-group form-inline">
-							<h5>Line thickness delta:</h5>
-							<input id="slide-ThicknessDelta" class="slider form-control" type="range" min="0" max="10" step="0.1" value="0.1">
-							<input class="sliderbox" width=10px id="input-ThicknessDelta" name="value" value="0.1">
-						</div>
-						<div class="form-group form-inline">
 							<h5>Iterations:</h5>
 							<input id="slide-Iters" class="slider form-control" type="range" min="0" max="10" step="1" value="6">
 							<input class="sliderbox" width=10px id="input-Iters" name="value" value="6">
-						</div>
-						<div class="checkbox">
-							<label><input id="chkBoxWireframe" type="checkbox">Draw polygons with wireframe</label>
 						</div>
 					</div>
 				</div>
@@ -102,23 +88,6 @@
 					</div>
 				</div>
 				<div id="colors" class="tab-pane">
-					<div class="clrline input-color">
-						Color 1:
-						<input type="text" value="rgb(255, 255, 255)"  hidden />
-						<div class="color-box" id="color1" style="background-color: #FFFFFF;"></div>
-						<!-- Replace "#FF850A" to change the color -->
-					</div>
-					<div class="clrline input-color">
-						Color 2:
-						<input type="text" value="rgb(255, 255, 255)"  hidden />
-						<div class="color-box" id="color2" style="background-color: #FFFFFF;"></div>
-						<!-- Replace "#FF850A" to change the color -->
-					</div>
-					<div class="clrline input-color">
-						Color 3:
-						<input type="text" value="rgb(255, 255, 255)"  hidden />
-						<div class="color-box" id="color3" style="background-color: #FFFFFF;"></div>
-					</div>
 				</div>
 			</div>
 		</div>
